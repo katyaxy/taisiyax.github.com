@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Metallica or Megadeth?</title>
+<style>
+    body {
+        background-color: #000;
+        color: #ff0000;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    button {
+        background-color: #ff4500;
+        color: #000;
+        border: none;
+        padding: 10px 20px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #ff6347;
+    }
+</style>
+</head>
+<body>
+<h1>Metallica or Megadeth?</h1>
+<button id="metallicaButton" onclick="metallicaClicked()">Metallica</button>
+<button id="megadethButton" onclick="megadethClicked()">Megadeth</button>
+<script>
+function metallicaClicked() {
+    alert('Then come a Metallica concert with me!');
+    // Here you can embed a Metallica song from Spotify
+}
+function megadethClicked() {
+    alert('Now you have to buy two tickets to a Megadeth concert.');
+    // Here you can embed a Megadeth song from Spotify
+}
+</script>
+</body>
+</html>
